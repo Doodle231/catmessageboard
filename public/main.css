@@ -1,0 +1,32 @@
+html,body{ 
+   
+    margin:0; 
+    font-family: 'Literata', serif;
+    overflow-x: hidden;
+
+}
+
+.logo { 
+  font-size: 3vw; 
+  padding-left: 5%;
+  padding-top:10px; 
+  font-weight: 900;
+
+}
+
+
+
+nav { 
+
+  width:100vw; 
+  height:75px; 
+  background-color: #66C3F8;
+
+  display:flex; 
+  align-items: center;
+}
+
+#inputswrapper{
+  margin-left:40%;
+  padding:10%; 
+}
