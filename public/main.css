@@ -1,5 +1,5 @@
 html,body{ 
-   
+    background-color: #F5F5F5;
     margin:0; 
     font-family: 'Literata', serif;
     overflow-x: hidden;
@@ -28,5 +28,25 @@ nav {
 
 #inputswrapper{
   margin-left:40%;
-  padding:10%; 
+
 }
+
+h1 { 
+  margin-top:10%; 
+  font-size:6vw; 
+  width:40%; 
+  margin-left:5%; 
+}
+
+#contactform{
+  position:absolute; 
+  right:30%; 
+  top:20%; 
+  padding:90px; 
+  font-size:24px; 
+  
+
+}
+
+
+
