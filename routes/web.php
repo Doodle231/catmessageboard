@@ -21,5 +21,5 @@ Route::get('/', [ExampleController::class, "homepage" ]
 Route::get('/about', [ExampleController::class, "aboutPage" ]
 );
 
-Route::post('/register', [UserController::class, "register"]
+Route::post('/register', [UserController::class, 'register']
 ); 
