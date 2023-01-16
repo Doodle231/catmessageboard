@@ -17,11 +17,18 @@ use App\Http\Controllers\UserController;
 */
 
 
+
+
+
+
 // User related routes
 Route::get('/', [UserController::class, "showCorrectHomepage" ])->name('login');
 Route::post('/register', [UserController::class, 'register'])->middleware('guest'); 
 Route::post('/login', [UserController::class, 'login'])->middleware('guest'); 
 Route::post('/logout', [UserController::class, 'logout'])->middleware('MustBeLoggedIn');
+Route::get('/manage-avatar', [UserController::class, 'showAvatarForm']); 
+
+
 
 //Blog post related routes 
 Route::get('/create-post' ,[PostController::class, 'showCreateForm'])->middleware('MustBeLoggedIn'); 
